@@ -1,1 +1,1 @@
-# Dynamic-Web-App
+<h1 align="center">Dynamic Web Apps</h1>
