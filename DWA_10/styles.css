@@ -1,10 +1,10 @@
 :root{
     --color-white: white;
-    --color-dark-grey: rgb(26, 24, 24);
-    --color-medium-grey: rgb(66, 64, 64);
+    --color-dark-grey: rgb(165, 145, 145);
+    --color-medium-grey: rgb(0, 0, 0);
     --color-light-grey: rgb(163, 159, 159);
-    --color-blue: rgba(0, 60, 255, 0.61);
-    --color-red: red;
+    --color-blue: rgba(255, 255, 255, 0.61);
+    --color-red: rgb(255, 255, 255);
 }
 
 *{
@@ -21,7 +21,7 @@ body{
     margin:0;
     background-color: var(--color-dark-grey);
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    height: 100%;
+    height: 50%;
 }
 
 .tally-box {
@@ -74,12 +74,6 @@ body{
     justify-content: center;
 }
 .reset-button::part(base){
-    color:white;
+    color:rgb(254, 254, 254);
     font-size: 2rem;
-}
-footer{
-    background-color: var(--color-light-grey);
-    padding: 30px;
-    font-size: 1rem;
-    text-align: center;
 }
