@@ -9,14 +9,14 @@ form.addEventListener("submit", (event) => {
   const { dividend, divider } = Object.fromEntries(entries);
 
     //Validation when are missing
-    if (dividend === "" || divider === ""){
+    if (dividend === "" || divider === ""){ 
         result.innerText = 'Calculation not performed. Both text box require value. Try again';
     }
     
     //An invalid division should log an error in the console
     else if(dividend < 0 || divider < 0){
         result.innerHTML = 'Division not performed. Invalid number provided. Try again';
-        console.trace();
+        console.log();
     }
 
     //Providing anything that is not a number shoud crash the program  
